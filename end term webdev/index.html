@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aarav Kapadnis | Frontend Dev Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Portfolio</div>
+        <nav class="desktop-nav">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="hamburger">&#9776;</label>
+        <nav class="mobile-nav">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section content-section"> 
+            <div class="hero-content">
+                <h1 class="animate-in">Hi, I'm Aarav Kapadnis</h1>
+                <p class="role animate-in delay-1">Frontend Web Developer</p>
+                <p class="animate-in delay-2">Turning design into performance: I build fast, accessible web experiences.</p>
+                <a href="#" class="cta-button animate-in delay-3" onclick="return false;">Download Resume</a>
+            </div>
+            
+            <div class="hero-image-placeholder animate-in delay-4">
+                <div class="terminal-mockup">
+                    <div class="header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <pre class="code-text">// Full Stack Focus</pre>
+                    <pre class="code-text active">const portfolio = new Project()</pre>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section content-section">
+            <h2>About Me</h2>
+            <div class="about-flex">
+                <div class="bio">
+                    <img src="profile2.png" alt="Profile photo of Aarav K." class="profile-photo">
+                    <p>I am a passionate developer specializing in modern JavaScript frameworks and cloud infrastructure. I thrive on challenges and love turning complex problems into clean, intuitive solutions. When I'm not coding, you can find me analyzing system architecture or exploring new tech stacks.</p>
+                </div>
+                <div class="skills">
+                    <h3>My Skills</h3>
+                    <ul class="skills-list">
+                        <li data-skill-level="96%">HTML5 & CSS3 (Flexbox/Grid)</li>
+                        <li data-skill-level="83%">React / Next.js</li>
+                        <li data-skill-level="71%">Node.js / Express</li>
+                        <li data-skill-level="65%">Docker & Kubernetes</li>
+                        <li data-skill-level="55%">CI/CD & AWS</li>
+                        <li data-skill-level="80%">Database (SQL/NoSQL)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section content-section">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <img src="calculator.png" alt="Screenshot of calculator">
+                    <h3>Calculator UI</h3>
+                    <p class="description">This project uses CSS Grid for layout and complex box-shadows to achieve the modern, soft-3D Neumorphism effect.</p>
+                    <p class="tech-stack">Tech: HTML & CSS</p>
+                    <div class="project-links">
+                       <!-- <a href="#" target="_blank">Live Demo</a>-->
+                        <a href="https://github.com/Aara6162/Calculator-UI" target="_blank">GitHub</a>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <img src="form.png" alt="Screenshot of responsive signup form">
+                    <h3>Responsive Signup Form</h3>
+                    <p class="description">This project is a clean, responsive form demonstrating form control styling and the use of CSS pseudo-classes for validation feedback.</p>
+                    <p class="tech-stack">Tech: HTML & CSS</p>
+                    <div class="project-links">
+                      <!--  <a href="#" target="_blank">Live Demo</a>-->
+                        <a href="https://github.com/Aara6162/Signup-Form" target="_blank">GitHub</a>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <img src="card.png" alt="Screenshot of 3-D flipping card">
+                    <h3>3-D Flipping Card</h3>
+                    <p class="description">This project uses CSS 3D transforms to create a multi-sided element that flips smoothly on hover.</p>
+                    <p class="tech-stack">Tech: HTML & CSS</p>
+                    <div class="project-links">
+                      <!--  <a href="#" target="_blank">Live Demo</a>-->
+                        <a href="https://github.com/Aara6162/3-d-Card-Flip" target="_blank">GitHub</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section content-section">
+            <h2>Get In Touch</h2>
+            <p>I'm currently looking for new opportunities. Let's connect and discuss your next big project!</p>
+            <div class="contact-links">
+                <a href="mailto:aaravkapadnis69@gmail.com" class="contact-icon">📧 Email Me</a>
+                <a href="https://www.linkedin.com/in/aarav-kapadnis-363227371/" target="_blank" class="contact-icon">🔗 LinkedIn</a>
+                <a href="https://github.com/Aara6162" target="_blank" class="contact-icon">🐙 GitHub</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Aarav K. | All rights reserved. Crafted with love and code.</p>
+    </footer>
+
+</body>
+</html>
